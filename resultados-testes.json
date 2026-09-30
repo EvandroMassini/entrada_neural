@@ -1,0 +1,264 @@
+{
+  "gradientMaxAbsoluteError": 3.6739278286290755e-11,
+  "validationBefore": 0.926310367718669,
+  "validationAfter": 0.00492129856629316,
+  "initialArrivals": 0,
+  "trainedArrivals": 20,
+  "testTracks": 20,
+  "feedbackSamples": 11520,
+  "modelRoundTrip": "identical predictions on 600 samples",
+  "invalidModel": "rejected",
+  "datasetChunkEquivalence": "exact",
+  "trajectoryChunkEquivalence": "exact",
+  "legacyModels": "supported",
+  "teacherPrecisionArrivals": 20,
+  "learningCurve": [
+    {
+      "label": "Inicial",
+      "updates": 0,
+      "validationMSE": 0.926310367718669,
+      "school": {
+        "arrivals": 0,
+        "meanDistance": 229.125,
+        "meanDeviation": 20.70093016438858,
+        "maxDeviation": 52.58603027032899,
+        "steeringVariation": 0.002326353854216189
+      },
+      "precision": {
+        "arrivals": 0,
+        "meanDistance": 180,
+        "meanDeviation": 13.775946026596106,
+        "maxDeviation": 32.2393193148325,
+        "steeringVariation": 0.0017467994026829435
+      }
+    },
+    {
+      "label": "25 ajustes",
+      "updates": 25,
+      "validationMSE": 0.5891684976417384,
+      "school": {
+        "arrivals": 0,
+        "meanDistance": 380.25,
+        "meanDeviation": 29.094300424841048,
+        "maxDeviation": 51.67083177533456,
+        "steeringVariation": 0.003970309127024594
+      },
+      "precision": {
+        "arrivals": 0,
+        "meanDistance": 179.25,
+        "meanDeviation": 15.726596482775099,
+        "maxDeviation": 31.702988827496483,
+        "steeringVariation": 0.004197372971143651
+      }
+    },
+    {
+      "label": "50 ajustes",
+      "updates": 50,
+      "validationMSE": 0.41883086699723654,
+      "school": {
+        "arrivals": 0,
+        "meanDistance": 562.875,
+        "meanDeviation": 23.42538225850567,
+        "maxDeviation": 51.88888991630421,
+        "steeringVariation": 0.00318554545264726
+      },
+      "precision": {
+        "arrivals": 0,
+        "meanDistance": 264,
+        "meanDeviation": 15.570480760175627,
+        "maxDeviation": 31.86319861978376,
+        "steeringVariation": 0.0035195920075303177
+      }
+    },
+    {
+      "label": "100 ajustes",
+      "updates": 100,
+      "validationMSE": 0.18396292672057996,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 14.867269078796422,
+        "maxDeviation": 48.56923315802021,
+        "steeringVariation": 0.003193008142596103
+      },
+      "precision": {
+        "arrivals": 1,
+        "meanDistance": 969.375,
+        "meanDeviation": 11.297914138009476,
+        "maxDeviation": 31.462430878351142,
+        "steeringVariation": 0.00302071201921766
+      }
+    },
+    {
+      "label": "200 ajustes",
+      "updates": 200,
+      "validationMSE": 0.04785987270794358,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 11.278770076252862,
+        "maxDeviation": 33.53789013420928,
+        "steeringVariation": 0.0036752819848743386
+      },
+      "precision": {
+        "arrivals": 2,
+        "meanDistance": 1096.25,
+        "meanDeviation": 10.534531976886422,
+        "maxDeviation": 31.259320805804037,
+        "steeringVariation": 0.0036439180461724173
+      }
+    },
+    {
+      "label": "400 ajustes",
+      "updates": 400,
+      "validationMSE": 0.015560818164323536,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 10.689287850120301,
+        "maxDeviation": 31.470414255448247,
+        "steeringVariation": 0.003961916491656071
+      },
+      "precision": {
+        "arrivals": 15,
+        "meanDistance": 2112.625,
+        "meanDeviation": 10.550692957786124,
+        "maxDeviation": 31.095750202400154,
+        "steeringVariation": 0.003952250909747886
+      }
+    },
+    {
+      "label": "800 ajustes",
+      "updates": 800,
+      "validationMSE": 0.009481603598346834,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 10.921932972025132,
+        "maxDeviation": 31.68076303991404,
+        "steeringVariation": 0.004106067510367174
+      },
+      "precision": {
+        "arrivals": 9,
+        "meanDistance": 1820.375,
+        "meanDeviation": 10.62478586244081,
+        "maxDeviation": 31.091073185898097,
+        "steeringVariation": 0.004112935551928773
+      }
+    },
+    {
+      "label": "1600 ajustes",
+      "updates": 1600,
+      "validationMSE": 0.008276967127190019,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 10.12024157761818,
+        "maxDeviation": 30.832945298185507,
+        "steeringVariation": 0.004253145414793512
+      },
+      "precision": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 10.12024157761818,
+        "maxDeviation": 30.832945298185507,
+        "steeringVariation": 0.004253145414793512
+      }
+    },
+    {
+      "label": "1 época",
+      "updates": 2400,
+      "validationMSE": 0.009177183875493676,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 10.521338893809187,
+        "maxDeviation": 31.49191193855009,
+        "steeringVariation": 0.004243173286715472
+      },
+      "precision": {
+        "arrivals": 14,
+        "meanDistance": 2110,
+        "meanDeviation": 10.356480229336032,
+        "maxDeviation": 31.108411903554213,
+        "steeringVariation": 0.0042535100542650875
+      }
+    },
+    {
+      "label": "2 épocas",
+      "updates": 4800,
+      "validationMSE": 0.006677471643120565,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 9.69224767187865,
+        "maxDeviation": 27.534301429514755,
+        "steeringVariation": 0.0043615982874777625
+      },
+      "precision": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 9.69224767187865,
+        "maxDeviation": 27.534301429514755,
+        "steeringVariation": 0.0043615982874777625
+      }
+    },
+    {
+      "label": "3 épocas",
+      "updates": 7200,
+      "validationMSE": 0.006262963349061014,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 9.912574507326408,
+        "maxDeviation": 27.929922915604152,
+        "steeringVariation": 0.004402292774102688
+      },
+      "precision": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 9.912574507326408,
+        "maxDeviation": 27.929922915604152,
+        "steeringVariation": 0.004402292774102688
+      }
+    },
+    {
+      "label": "30 épocas",
+      "updates": 72000,
+      "validationMSE": 0.00492129856629316,
+      "school": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 10.360062925534237,
+        "maxDeviation": 27.385101935114022,
+        "steeringVariation": 0.004356921060156142
+      },
+      "precision": {
+        "arrivals": 20,
+        "meanDistance": 2400,
+        "meanDeviation": 10.360062925534237,
+        "maxDeviation": 27.385101935114022,
+        "steeringVariation": 0.004356921060156142
+      }
+    }
+  ],
+  "onlineResult": {
+    "label": "1 rodada online",
+    "updates": 11520,
+    "validationMSE": 0.7946176175005091,
+    "school": {
+      "arrivals": 7,
+      "meanDistance": 1593.25,
+      "meanDeviation": 22.54619901027931,
+      "maxDeviation": 51.393465743038945,
+      "steeringVariation": 0.004624636237844615
+    },
+    "precision": {
+      "arrivals": 3,
+      "meanDistance": 1045.625,
+      "meanDeviation": 17.175886779635892,
+      "maxDeviation": 31.367471138902886,
+      "steeringVariation": 0.00481359163866397
+    }
+  }
+}

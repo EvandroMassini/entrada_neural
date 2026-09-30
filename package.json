@@ -1,0 +1,21 @@
+{
+  "name": "estrada-neural",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Laboratório educativo de rede neural em JavaScript puro, com treinamento, retropropagação e modelo JSON.",
+  "scripts": {
+    "test": "node test.js && node test-interface.js",
+    "test:engine": "node test.js",
+    "test:interface": "node test-interface.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "neural-network",
+    "javascript",
+    "backpropagation",
+    "educational",
+    "imitation-learning"
+  ]
+}
